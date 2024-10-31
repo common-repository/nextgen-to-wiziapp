@@ -1,0 +1,46 @@
+#nextgen_to_wiziapp_message {
+	height: 72px;
+}
+
+#nextgen_to_wiziapp_message div:first-child {
+	width: 550px;
+	float: left;
+}
+
+#nextgen_to_wiziapp_scan {
+	width: 242px;
+	float: left;
+}
+
+#nw_progress_bar_container {
+	display: none;
+	width: 260px;
+	height: 12px;
+	position: relative;
+	margin: 20px auto;
+}
+
+#nw_progress_bar_bg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+#nw_progress_bar {
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	background-color: #0ca0f5;
+}
+
+#nextgen_to_wiziapp_warning {
+	display: none;
+	width: 700px;
+	float: left;
+	text-align: center;
+}
